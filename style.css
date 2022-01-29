@@ -1,0 +1,31 @@
+.parent{
+    background: blue;
+    min-height: 250vh;
+    padding:1rem;
+    position: relative;
+}
+/* psotions: static|static|initial|inherit|absolute    s */
+.child1{
+    background: yellow;
+    /* psotion */
+    position:relative;  /* refers to parent aboslute position to parent relative */
+    ;
+}
+.child2{
+    background: green;
+    /** psotion */ 
+    position:sticky;
+    top:10px;
+  
+}
+.child3{
+    background: red;
+    /* psotion */
+    /* position:relative; */
+    /* position:relative; */
+    /* top:25px; */
+}
+.parent >div {
+    height:150px;
+    font-size: 2rem;
+}
